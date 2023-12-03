@@ -1,0 +1,296 @@
+<!-- Live link:  https://munaf81.github.io/Portfolio./ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/1b09ae3a4c.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="icon" href="resume_icon.png">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div id="hamburger">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </div>
+            <ul type="none"class="nav_ul1">
+                <li><a href="#">Home</a></li> 
+                <li><a href="#About">About</a></li> 
+                <li><a href="#Skills">Skills</a></li> 
+                <li><a href="#Work-experience">Experience</a></li> 
+                <li><a href="#Education">Education</a></li> 
+                <li><a href="#Portfolio">Portfolio</a></li> 
+                <li><a href="#Contact">Contact</a></li> 
+            </ul>
+        </nav>
+        <div class="mid_header">
+            <h1>Munaf Majeed</h1>
+            <ul type="none" class="nav_ul2">
+                <li><a href="https://www.instagram.com/munaf_majeed_81"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://github.com/munaf81"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.facebook.com/munaf.majeed.81"><i class="fa-brands fa-facebook-f"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section id="About">
+            <div class="my_image">
+                <img src="main-image.jpeg">
+            </div>
+            <div class="description">
+                <p class="summary">Dependable and highly motivated computer science student seeking mentorship and guidance as a fresher in the industry. Eager to apply programming skills including C++, Java, Python, HTML, CSS and JavaScript, along with a solid foundation in data structures to contribute to a dynamic team.</p>
+            </div>
+        </section>
+        <section id="Skills">
+            <h1 class="section-title"><i class="fa-solid fa-chalkboard-user"></i> SKILLS</h1>
+            <div class="skills_section">
+                <div class="skill_bar">
+                    <div class="bar">
+                        <div class="Cpp same_for_bar">
+                            C++
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <div class="Java same_for_bar">
+                            Java
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <div class="Python same_for_bar">
+                            Python
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <div class="Html same_for_bar">
+                            HTML
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <div class="CSS same_for_bar">
+                            CSS
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <div class="Tailwind same_for_bar">
+                            Tailwind
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <div class="JavaScript same_for_bar">
+                            JavaScript
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <div class="API same_for_bar">
+                            API
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <div class="React same_for_bar">
+                            React
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <div class="Springboot same_for_bar">
+                            Springboot
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Work-experience">
+            <h1 class="section-title">EXPERIENCE</h1>
+            <div class="timeline">
+                <div class="timeline-box">
+                    <div class="we-heading">
+                        <h1>Teaching (PSP)</h1>
+                    </div>
+                    <div class="organization">
+                        <p><span class="bold-name">E-Matrix</span> - Srinagar, Kashmir, India</p>
+                    </div>
+                    <div class="duration">
+                        <p>07/2022 - 08/2022</p>
+                    </div>
+                    <div class="about-experience">
+                        <p>Facilitated peer-to-peer (P2P) teaching experiences, collaborating closely with students and fellow staff members to achieve improved learning outcomes. Strengthened my programming and logical aptitude while instructing students. Successfully covered the designated syllabus within stipulated timeframes. Engaged in parent-teacher conferences, honing my communication skills further.</p>
+                    </div>
+                </div>
+                <div class="timeline-box">
+                    <div class="we-heading">
+                        <h1>Internship (Java)</h1>
+                    </div>
+                    <div class="organization">
+                        <p><span class="bold-name">In-Campus</span> - Rayat Bahra University, Mohali</p>
+                    </div>
+                    <div class="duration">
+                        <p>15/01/2023 - 15/02/2023</p>
+                    </div>
+                    <div class="about-experience">
+                        <p>Completed a 30-day in-campus training program focused on Java programming. Acquired a solid foundation in Java fundamentals and Object-Oriented Programming (OOPS) principles. Sharpened logic-building skills through extensive problem-solving exercises.</p>
+                    </div>
+                </div>
+                <div class="timeline-box">
+                    <div class="we-heading">
+                        <h1>Internship (Full Stack)</h1>
+                    </div>
+                    <div class="organization">
+                        <p><span class="bold-name">In-Campus</span> - Rayat Bahra University, Mohali</p>
+                    </div>
+                    <div class="duration">
+                        <p>10/07/2023 - 25/08/2023</p>
+                    </div>
+                    <div class="about-experience">
+                        <p>Completed a comprehensive 45-day in-campus Full Stack training program covering fundamental concepts in web development, including HTML, CSS, and JavaScript. Gained practical experience working with APIs, Java, Spring Boot, Postman, and PostgreSQL. This intensive program sharpened my logic-building skills and provided hands-on problem-solving opportunities.</p>
+                    </div>
+                </div>
+                <div class="timeline-divider">
+                    <div class="timeline-icons">
+                        <i class="timeline-traveller fas fa-plane"></i>
+                        <i id="experience1" class="fa-regular fa-circle-dot"></i>
+						<i id="experience2" class="fa-regular fa-circle-dot"></i>
+						<i id="experience3" class="fa-regular fa-circle-dot"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Education">
+            <h1 class="section-title">EDUCATION</h1>
+            <div class="timeline">
+                <div class="timeline-box">
+                    <div class="we-heading">
+                        <h1>Matriculation</h1>
+                    </div>
+                    <div class="organization">
+                        <p><span class="bold-name">SSM Higher secondary  School</span> - Srinagar, Kashmir, India</p>
+                    </div>
+                    <div class="duration">
+                        <p>2021</p>
+                    </div>
+                    <div class="about-experience">
+                        <p>Scored 245/500 marks (distinction)</p>
+                    </div>
+                </div>
+                <div class="timeline-box">
+                    <div class="we-heading">
+                       
+                </div>
+                <div class="timeline-box">
+                    <div class="we-heading">
+                        <h1>diploma- Computer science engineering </h1>
+                    </div>
+                    <div class="organization">
+                        <p><span class="bold-name">Rayat Bahra University</span> - Mohali, Chandigarh, India</p>
+                    </div>
+                    <div class="duration">
+                        <p>2021-2024</p>
+                    </div>
+                    <div class="about-experience">
+                        <p>Current CGPA: 7.78</p>
+                    </div>
+                </div>
+                <div class="timeline-divider">
+                    <div class="timeline-icons">
+                        <i class="timeline-traveller2 fa-solid fa-user"></i>
+                        <i id="education1" class="fa-regular fa-circle-dot"></i>
+						<i id="education2" class="fa-regular fa-circle-dot"></i>
+						<i id="education3" class="fa-regular fa-circle-dot"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Portfolio">
+            <h1 class="section-title">PORTFOLIO</h1>
+            <div class="projects">
+                <div class="ph project1">
+                    <div class="project-title p1t">
+                        <h1>Text Translator</h1>
+                        <ul class="pt-on-hover">
+                            <li>I developed a Text Translator using HTML, CSS, and JavaScript</li>
+                            <li>This project replicates the core funtionality of Google Translator, allowing user to input text in one language and recieve the translated text in their desired language.</li>
+                            <li>Technologies used- HTML, CSS, JavaScript, API.</li>
+                            <li>GitHub repository link: <a class="link1" href="https://github.com/munaf81/Text-Translator">github.com/munaf81/Text-Translator</a></li>
+                        </ul>
+                    </div>
+                    <div class="project-image p1i">
+                        <img src="./text_translator.jpg">
+                    </div>
+                </div>
+                <div class="ph project2">
+                    <div class="project-title p2t">
+                        <h1>YouTube Clone</h1>
+                        <ul class="pt-on-hover">
+                            <li>I developed a YouTube Clone web application where users can search for and watch videos.</li>
+                            <li>Technologies used- HTML, CSS, JavaScript, API.</li>
+                            <li>Leveraged the Youtube Data API to fetch video data, display searcg results and play videos seamlessly.</li>
+                            <li>GitHub repository link: <a class="link2" href="https://github.com/munaf81/Youtube-clone">github.com/munaf81/Youtube-clone</a> </li>
+                        </ul>
+                    </div>
+                    <div class="project-image p2i">
+                        <img src="./youtube_clone.png">
+                    </div>
+                </div>
+                <div class="ph project3">
+                    <div class="project-title p3t">
+                        <h1>Sign-up Form</h1>
+                        <ul class="pt-on-hover">
+                            <li>I created a Sign-up/Sign-in webpage with HTML, CSS and JavaScript for the frontend.</li>
+                            <li>IT i sconnected to our own PostgreSQL database using Java to handle posting and fetching data.</li>
+                            <li>Additionally, I used Postman to verify data rendering.</li>
+                            <li>GitHub repository link: <a class="link3" href="https://github.com/munaf81/FullStack_sign-up_sign-in">github.com/munaf81/FullStack_sign-up_sign-in</a></li>
+                        </ul>
+                    </div>
+                    <div class="project-image p3i">
+                        <img src="./form.png">
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section id="Contact">
+            <h1 class="section-title" style="color:white">CONTACTS</h1>
+            <div class="contact-container">
+                <div class="contact-left">
+                    <form class="form">
+                        <input class="form-field" type="text" name="yourname" placeholder="Your Name">
+                        <input class="form-field" type="text" name="youremail" placeholder="Your Email">
+                        <textarea class="form-field" name="message" placeholder="Message" style="font-family: sans-serif;"></textarea>
+                        <button class="form-button" type="button">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <div class="touch">
+                        <div class="rs-title">
+                            <h1>Get In Touch</h1>
+                        </div>
+                        <div class="t-bottom">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                    <div class="address">
+                        <div class="rs-title">
+                            <h1>My Address</h1>
+                        </div>
+
+                        <p> <i class="fa-sharp fa-solid fa-location-dot"></i>Galib,Abad,shalteng Srinagar, Kashmir, J&K - 190017</p>
+                        <p> <i class="fa-solid fa-phone"></i>7889832910 / </p>
+                        <p><a href="mailto:mickeybabu81@gmail.com?subject=feedback" target="_blank"  class="mailidchanges"> <i class="fa-solid fa-envelope"></i>mickeybabu81@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- The below div is the same as we used in header section -->
+            <div class="mid_header">
+                <ul type="none" class="nav_ul2"> 
+                    <li><a href="https://www.instagram.com/munaf_majeed_81"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://github.com/munaf81"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.facebook.com/munaf.majeed.81"><i class="fa-brands fa-facebook-f"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        
+    </main>
+    
+</body>
+</html>
